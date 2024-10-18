@@ -15,6 +15,7 @@ Fate Farming的部分功能：
 - 将FATE名称、NPC名、以太水晶名、道具名等进行了翻译
 - fate优先级变更
 - 将部分等待时间变更
+- 可能会有bug，如果出现了bug请创建一个新的issues
 
 ## New to Something Need Doing (SND)
 ![SND Basics](Settings/SND.png)
