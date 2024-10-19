@@ -1,4 +1,4 @@
-﻿--[[
+--[[
 
 ********************************************************************************
 *                                Fate Farming                                  *
@@ -59,7 +59,7 @@ Plugins that are needed for it to work:
     -> Lifestream :  (用于更改实例[ChangeInstance][Exchange]（看不懂）) 
 https://raw.githubusercontent.com/NightmareXIV/MyDalamudPlugins/main/pluginmaster.json
 ********************************************************************************
-*                                可选插件                              *
+*                                    可选插件                                   *
 ********************************************************************************
 
 This Plugins are Optional and not needed unless you have it enabled in the settings:
@@ -588,7 +588,7 @@ FatesData = {
         zoneName = "天外天垓",
         zoneId = 960,
         aetheryteList = {
-            { aetheryteName="半途中旅", x=-544, y=74, z=269 },
+            { aetheryteName="半途终旅", x=-544, y=74, z=269 },
             { aetheryteName="异亚村落", x=64, y=272, z=-657 },
             { aetheryteName="奥密克戎基地", x=-489, y=437, z=333 },
         },
@@ -1277,7 +1277,7 @@ function FlyBackToAetheryte()
             State = CharacterState.ready
             LogInfo("[FATE] State Change: Ready")
         else
-            if MountToUse == "随机飞行坐骑ト" then
+            if MountToUse == "随机飞行坐骑" then
                 yield("/gaction 随机飞行坐骑")
             else
                 yield('/mount "' .. MountToUse)
