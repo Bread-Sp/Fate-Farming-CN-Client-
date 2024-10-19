@@ -16,7 +16,7 @@ Fate Farming的部分功能：
 - fate优先级变更
 - 将部分等待时间变更
 - 可能会有bug，如果出现了bug请创建一个新的issues
-  *仅负责修复本地化错误，不负责逻辑代码bug修复*
+*仅负责修复本地化错误，不负责逻辑代码bug修复*
 
 ## New to Something Need Doing (SND)
 ![SND Basics](Settings/SND.png)
