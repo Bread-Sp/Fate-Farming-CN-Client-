@@ -1883,7 +1883,7 @@ function HandleUnexpectedCombat()
         yield("/wait 10")
         return
     elseif GetCharacterCondition(CharacterCondition.mounted) then
-        yield("/gaction ジャンプ")
+        yield("/gaction jump")
         return
     end
 
